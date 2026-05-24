@@ -1,0 +1,86 @@
+<html>
+<head>
+    <title>Social Link Profile</title>
+
+    <style>
+        body
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: black;
+    }
+        .box
+        {
+            background-color: rgb(35, 32, 32);
+            width: 250px;
+            height: 480px;
+            margin: 5px;
+            border-radius: 10px;
+        }
+        .profile
+        {
+            width: 75px;
+            height: 75px;
+            border-radius: 50%;
+        }
+        .btn
+        {
+            background-color:  rgb(77, 71, 71);
+            color: white;
+            width: 200px;
+            height: 30px;
+            margin: 5px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+
+    <script>
+
+        
+        function GitHub()
+        {
+            window.open("https://github.com/Saideep-0418","_blank");
+        }
+
+        function fm()
+        {
+            window.open("https://www.frontendmentor.io/profile/Saideep-0418","_blank");
+        }
+
+        function LinkedIn()
+        {
+            window.open("https://www.linkedin.com/in/saideep-kumar-990ba1314/","_blank");
+        }
+
+        function Twitter()
+        {
+            window.open("https://x.com/SaideepKumar5","_blank");
+        }
+
+        function Instagram()
+        {
+            window.open("https://www.instagram.com/saideep_kshirsagar/","_blank");
+        }
+    </script>
+</head>
+<body bgcolor="black" display="flex">
+    <center>
+    <div class="box"><br><br>
+        <img src="chinna.png" class="profile" height="100" width="100">
+        <h2 style="color: aliceblue;">Saideep Kumar</h2>
+        <p style="color: yellow;">Telangana, India</p>
+        <p style="color: aliceblue;">Frontend Developer</p>
+        <button class="btn" onclick="GitHub()">GitHub</button><br>
+        <button class="btn" onclick="fm()">Frontend Mentor</button><br>
+        <button class="btn" onclick="LinkedIn()">LinkedIn</button><br>
+        <button class="btn" onclick="Twitter()">Twitter</button><br>
+        <button class="btn" onclick="Instagram()">Instagram</button><br>
+    </div>
+    </center>
+</body>
+</html>
